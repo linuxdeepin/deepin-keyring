@@ -1,0 +1,27 @@
+Source: deepin-keyring
+Section: misc
+Priority: optional
+Maintainer: lilongyu <leaeasy@linuxdeepin.com>
+Build-Depends: debhelper (>= 7), gnupg
+Standards-Version: 3.9.8
+
+Package: deepin-keyring
+Priority: important
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, gnupg
+Recommends: gpgv
+Description: GnuPG keys of the Deepin archive
+ The Deepin project digitally signs its Release files. This package
+ contains the archive keys used for that.
+
+Package: deepin-keyring-udeb
+XC-Package-Type: udeb
+Priority: optional
+Architecture: all
+Section: debian-installer
+Recommends: gpgv-udeb
+Description: GnuPG keys of the Deepin archive
+ The Deepin project digitally signs its Release files. This package
+ contains the archive keys used for that, in a minimal form for use
+ in the installer.
