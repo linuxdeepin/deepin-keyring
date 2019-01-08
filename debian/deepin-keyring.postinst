@@ -3,14 +3,14 @@
 # the keyring in /var that gets fetched by apt-key net-update
 # if it does not yet exist, copy it to avoid uneeded net copy
 KEYRINGDIR="/var/lib/apt/keyrings"
-KEYRING="${KEYRINGDIR}/deepin-archive-keyring.gpg"
+KEYRING="${KEYRINGDIR}/deepin-archive-camel-keyring.gpg"
 
 if ! test -d $KEYRINGDIR; then
      mkdir -m 755 -p $KEYRINGDIR
 fi
 
 if ! test -f $KEYRING; then
-     cp /usr/share/keyrings/deepin-archive-keyring.gpg $KEYRING
+     cp /usr/share/keyrings/deepin-archive-camel-keyring.gpg $KEYRING
      touch $KEYRING
 fi
 

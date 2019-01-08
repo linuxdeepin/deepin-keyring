@@ -2,5 +2,5 @@
 set -e
 DIR=/usr/share/keyrings
 if [ ! -e $DIR/archive.gpg ]; then
-	ln -s deepin-archive-keyring.gpg $DIR/archive.gpg
+	ln -s deepin-archive-camel-keyring.gpg $DIR/archive.gpg
 fi
