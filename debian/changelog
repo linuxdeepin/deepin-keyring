@@ -1,3 +1,10 @@
+deepin-keyring (2023.09.26) unstable; urgency=medium
+
+  * Switch to 3.0 (native).
+  * Depends on gpgv instead of gnupg, make deepin-keyring bootstrapable.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Tue, 26 Sep 2023 17:12:02 +0800
+
 deepin-keyring (2021.06.07-1) unstable; urgency=medium
 
   * update
