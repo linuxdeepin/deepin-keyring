@@ -3,14 +3,13 @@ Section: misc
 Priority: optional
 Maintainer: lilongyu <leaeasy@linuxdeepin.com>
 Build-Depends: debhelper (>= 7), gnupg
-Standards-Version: 3.9.8
+Standards-Version: 4.6.2.0
 
 Package: deepin-keyring
 Priority: important
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}, gnupg
-Recommends: gpgv
+Depends: ${misc:Depends}, gpgv
 Description: GnuPG keys of the Deepin archive
  The Deepin project digitally signs its Release files. This package
  contains the archive keys used for that.

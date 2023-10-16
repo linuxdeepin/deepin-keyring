@@ -4,6 +4,8 @@
 # if it does not yet exist, copy it to avoid uneeded net copy
 KEYRINGDIR="/var/lib/apt/keyrings"
 KEYRING="${KEYRINGDIR}/deepin-archive-camel-keyring.gpg"
+EDU_KEYRING="${KEYRINGDIR}/deepin-archive-uranus-keyring.gpg"
+APPSTORE_KEYRING="${KEYRINGDIR}/deepin-app-store-home.gpg"
 
 if ! test -d $KEYRINGDIR; then
      mkdir -m 755 -p $KEYRINGDIR
@@ -12,6 +14,16 @@ fi
 if ! test -f $KEYRING; then
      cp /usr/share/keyrings/deepin-archive-camel-keyring.gpg $KEYRING
      touch $KEYRING
+fi
+
+if ! test -f $EDU_KEYRING; then
+     cp /usr/share/keyrings/deepin-archive-uranus-keyring.gpg $EDU_KEYRING
+     touch $EDU_KEYRING
+fi
+
+if ! test -f $APPSTORE_KEYRING; then
+     cp /usr/share/keyrings/deepin-app-store-home.gpg $APPSTORE_KEYRING
+     touch $APPSTORE_KEYRING
 fi
 
 # sensible default permissions if there is no keyring yet
