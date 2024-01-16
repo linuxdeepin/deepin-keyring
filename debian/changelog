@@ -1,6 +1,8 @@
-deepin-keyring (2024.01.16) UNRELEASED; urgency=medium
+deepin-keyring (2024.01.16) unstable; urgency=medium
 
   * Bump debhelper compat to 11.
+  * Do not run postinst script since apt-key is a no-op.
+    https://github.com/linuxdeepin/developer-center/issues/6533
 
  -- Tianyu Chen <sweetyfish@deepin.org>  Tue, 16 Jan 2024 11:10:34 +0800
 
