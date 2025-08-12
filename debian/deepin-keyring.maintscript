@@ -1,0 +1,2 @@
+rm_conffile /etc/apt/trusted.gpg.d/deepin-archive-uranus-keyring.gpg 2025.08.12~~
+rm_conffile /etc/apt/trusted.gpg.d/deepin-pools-keyring.gpg 2025.08.12~~

@@ -2,6 +2,7 @@ keyrings/deepin-app-store-home.gpg /etc/apt/trusted.gpg.d/
 keyrings/deepin-app-store-home.gpg /usr/share/keyrings/
 keyrings/deepin-archive-camel-keyring.gpg /etc/apt/trusted.gpg.d/
 keyrings/deepin-archive-camel-keyring.gpg /usr/share/keyrings/
-keyrings/deepin-archive-uranus-keyring.gpg /etc/apt/trusted.gpg.d/
+keyrings/deepin-archive-crimson-keyring.gpg /etc/apt/trusted.gpg.d/
+keyrings/deepin-archive-crimson-keyring.gpg /usr/share/keyrings/
 keyrings/deepin-archive-uranus-keyring.gpg /usr/share/keyrings/
-keyrings/deepin-pools-keyring.gpg   /etc/apt/trusted.gpg.d/
+keyrings/deepin-pools-keyring.gpg   /usr/share/keyrings/

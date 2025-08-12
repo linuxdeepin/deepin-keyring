@@ -1,6 +1,13 @@
 deepin-keyring (2025.08.12) UNRELEASED; urgency=medium
 
   * Update debhelper-compat 13.
+  * Add deepin-archive-crimson-keyring.gpg:
+    C8D4007013F204522581B53CC74F4CC877BFFA4A
+  * No longer install deepin-pools-keyring.gpg to trusted.gpg.d:
+    BE8855B13076E3A2B66DB296820F938DCBE6D2D0
+  * No longer install deepin-archive-uranus-keyring.gpg to trusted.gpg.d:
+    BA7140C3AC251BF05C76195DAC473DDD00FE8924
+  * rm_conffile old keys in maintscript.
 
  -- Tianyu Chen <sweetyfish@deepin.org>  Tue, 12 Aug 2025 15:19:27 +0800
 
