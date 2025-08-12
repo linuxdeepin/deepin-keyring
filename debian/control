@@ -2,14 +2,18 @@ Source: deepin-keyring
 Section: misc
 Priority: optional
 Maintainer: lilongyu <leaeasy@linuxdeepin.com>
-Build-Depends: debhelper-compat (= 13), gnupg
+Build-Depends:
+ debhelper-compat (= 13),
+ gnupg,
 Standards-Version: 4.6.2.0
 
 Package: deepin-keyring
 Priority: important
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}, gpgv
+Depends:
+ gpgv,
+ ${misc:Depends},
 Description: GnuPG keys of the Deepin archive
  The Deepin project digitally signs its Release files. This package
  contains the archive keys used for that.
@@ -19,7 +23,8 @@ XC-Package-Type: udeb
 Priority: optional
 Architecture: all
 Section: debian-installer
-Recommends: gpgv-udeb
+Recommends:
+ gpgv-udeb,
 Description: GnuPG keys of the Deepin archive
  The Deepin project digitally signs its Release files. This package
  contains the archive keys used for that, in a minimal form for use
