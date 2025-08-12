@@ -40,18 +40,18 @@ deepin-keyring (2017.02.14) unstable; urgency=medium
 
 deepin-keyring (2015.10.09) unstable; urgency=medium
 
-  * add pools keyring. 
+  * add pools keyring.
 
  -- Deepin Packages Builder <packages@linuxdeepin.com>  Fri, 09 Oct 2015 13:43:50 +0800
 
 deepin-keyring (2015.04.27) unstable; urgency=medium
 
-  * add /etc folder. 
+  * add /etc folder.
 
  -- Deepin Packages Builder <packages@linuxdeepin.com>  Mon, 27 Apr 2015 15:33:03 +0800
 
 deepin-keyring (2015.04.20) unstable; urgency=low
 
-  * Initial release with the Deepin Archive Signing Key. 
+  * Initial release with the Deepin Archive Signing Key.
 
  -- Deepin Packages Builder <packages@linuxdeepin.com>  Mon, 20 Apr 2015 15:07:11 +0800
