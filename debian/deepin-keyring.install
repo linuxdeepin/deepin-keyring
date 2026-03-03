@@ -6,3 +6,4 @@ keyrings/deepin-archive-crimson-keyring.gpg /etc/apt/trusted.gpg.d/
 keyrings/deepin-archive-crimson-keyring.gpg /usr/share/keyrings/
 keyrings/deepin-archive-uranus-keyring.gpg /usr/share/keyrings/
 keyrings/deepin-pools-keyring.gpg   /usr/share/keyrings/
+keyrings/uos-archive-snipe-keyring.gpg /usr/share/keyrings/

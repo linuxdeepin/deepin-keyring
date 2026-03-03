@@ -1,3 +1,10 @@
+deepin-keyring (2026.02.28) unstable; urgency=medium
+
+  * Add uos-archive-snipe-keyring.gpg:
+    A209AAE0A380419BEC96D8A391292CDCA33E928B
+
+ -- Li Chenggang <lichenggang@deepin.org>  Sat, 28 Feb 2026 17:56:00 +0800
+
 deepin-keyring (2025.08.12) unstable; urgency=medium
 
   * Update debhelper-compat 13.
