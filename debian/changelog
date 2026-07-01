@@ -1,3 +1,9 @@
+deepin-keyring (2026.07.01) unstable; urgency=medium
+
+  * add uos-archive-snipe-keyring.gpg /etc/apt/trusted.gpg.d/
+
+ -- lichenggang <lichenggang@deepin.org>  Wed, 01 Jul 2026 15:37:50 +0800
+
 deepin-keyring (2026.02.28) unstable; urgency=medium
 
   * Add uos-archive-snipe-keyring.gpg:
